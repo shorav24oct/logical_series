@@ -27,14 +27,14 @@ public class LargestNumber {
 	 */
 	public static int largestNumber(int arr[]) {
 		int res = 0;
-		for (int i = 0; i < arr.length; i++)
+		for (int i = 1; i < arr.length; i++)
 			if (arr[i] > arr[res])
 				res = i;
 		return res;
 	}
 
 	public static void main(String[] args) {
-		int[] arr = { 500, 8, 100, 70, 20 };
+		int[] arr = { 500, 8, 1000, 70, 20 };
 
 		System.out.println(largestNumber(arr));
 	}
