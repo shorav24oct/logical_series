@@ -2,7 +2,7 @@ package com.gfg.search;
 
 public class IndexOfFirstOccurrence {
 
-	public static int search(int[] arr, int x) {
+	public static int firstOccurrence(int[] arr, int x) {
 		int low = 0;
 		int high = arr.length - 1;
 
@@ -27,7 +27,7 @@ public class IndexOfFirstOccurrence {
 
 	public static void main(String[] args) {
 		int[] arr = { 10, 20, 20, 20, 20 };
-		System.out.println(search(arr, 20));
+		System.out.println(firstOccurrence(arr, 20));
 	}
 
 }

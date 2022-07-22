@@ -2,7 +2,7 @@ package com.gfg.search;
 
 public class IndexOfLastOccurrence {
 
-	public static int search(int[] arr, int x) {
+	public static int lastOccurrence(int[] arr, int x) {
 		int low = 0;
 		int high = arr.length - 1;
 
@@ -29,7 +29,7 @@ public class IndexOfLastOccurrence {
 
 	public static void main(String[] args) {
 		int[] arr = { 10, 20, 20, 20, 30 };
-		System.out.println(search(arr, 20));
+		System.out.println(lastOccurrence(arr, 20));
 	}
 
 }
